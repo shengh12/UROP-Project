@@ -16,7 +16,7 @@ from tkinter import ttk
 from ttkthemes import themed_tk as tk
 
 #Plot takes the compound names and the temperature to make an accurate plot of the delta E graph.
-
+#hello World
 def plot(additional_element = False, cathod_name = '', x_cat=0.0, fixed_element = None, analyze = 'None'):
     for widget in frame_2.winfo_children():
         widget.destroy()
